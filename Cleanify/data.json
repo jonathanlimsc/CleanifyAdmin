@@ -1,0 +1,73 @@
+[{
+ "name": "Minerva McGonagall",
+ "profilepic":"mcgonagall.jpg",
+ "phone":"610-123-4567",
+ "email":"ilovecats@hogwarts.com",
+ "address":"First floor corridor, Hogwarts Castle, Scotland, Great Britain",
+ "startTime":"10/08/2015 10:00",
+ "endTime":"10/08/2015 12:00",
+ "bathroomNumber":1,
+ "bedroomNumber":2,
+ "extra":"Clean up the cat fur and hairballs please."
+ },
+ {
+ "name":"Severus Snape",
+ "profilepic":"snape.png",
+ "phone":"631-432-6665",
+ "address":"Dungeons, Hogwarts Castle, Scotland, Great Britain",
+ "email":"sev_snape@hogwarts.com",
+ "startTime":"10/10/2015 13:00",
+ "endTime":"10/10/2015 15:00",
+ "bathroomNumber":2,
+ "bedroomNumber":3,
+ "extra":"Clear the storage cabinet of expired Polyjuice potion. You will find it in column 4, row 2, next to the beetles jar."
+ },
+ {
+ "name":"Albus Dumbledore",
+ "profilepic": "dumbledore.jpg",
+ "phone":"603-133-1121",
+ "address":"Gargoyle Corridor, Headmaster's Tower, Hogwarts Castle, Scotland, Great Britain",
+ "email":"headmaster@hogwarts.com",
+ "startTime":"10/10/2015 12:30",
+ "endTime":"10/10/2015 15:00",
+ "bathroomNumber":1,
+ "bedroomNumber":1,
+ "extra":"I would appreciate it very much if you could be really quiet, because the headmasters in the portraits are sleeping."
+ },
+ {
+ "name":"Sirius Black",
+ "profilepic":"siriusblack.jpg",
+ "phone":"650-120-3114",
+ "address":"12 Grimmauld Place, Islington, London, England",
+ "email":"bigblackdog@oophoenix.com",
+ "startTime":"10/11/2015 06:45",
+ "endTime": "10/11/2015 08:15",
+ "bathroomNumber":1,
+ "bedroomNumber":2,
+ "extra": "De-clog the toilet for me, thanks."
+ },
+ {
+ "name":"Hermione Granger",
+ "profilepic":"hermione.jpeg",
+ "phone":"650-120-3115",
+ "address":"Girl's Dorm, Gryffindor, Hogwarts Castle, Scotland, Great Britain",
+ "email":"h.granger@hogwarts.com",
+ "startTime":"10/15/2015 14:30",
+ "endTime": "10/15/2015 18:30",
+ "bathroomNumber":0,
+ "bedroomNumber":1,
+ "extra": "Don't touch my books!! They are very old and fragile and have to be absolutely immaculate."
+ },
+ {
+ "name":"Lord Voldemort",
+ "profilepic":"lordvoldemort.jpeg",
+ "phone":"911",
+ "address":"Undisclosed",
+ "email":"Undisclosed",
+ "startTime":"10/15/2015 14:30",
+ "endTime": "10/15/2015 18:30",
+ "bathroomNumber":1,
+ "bedroomNumber":2,
+ "extra": "Please feed Nagini for me. "
+ }
+ ]
