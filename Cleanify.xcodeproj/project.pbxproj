@@ -20,20 +20,20 @@
 		AB1230D31BCA46490033EBA3 /* CustomerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1230D21BCA46490033EBA3 /* CustomerBuilder.m */; settings = {ASSET_TAGS = (); }; };
 		AB1230D61BCAEA920033EBA3 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1230D51BCAEA920033EBA3 /* Customer.m */; settings = {ASSET_TAGS = (); }; };
 		AB1230D91BCB83390033EBA3 /* CustDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1230D81BCB83390033EBA3 /* CustDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		AB76CCD21BCE2D770003B593 /* dracomalfoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCC71BCE2D770003B593 /* dracomalfoy.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCD31BCE2D770003B593 /* dumbledore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCC81BCE2D770003B593 /* dumbledore.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCD41BCE2D770003B593 /* hagrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCC91BCE2D770003B593 /* hagrid.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCD51BCE2D770003B593 /* harry potter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCCA1BCE2D770003B593 /* harry potter.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCD61BCE2D770003B593 /* hermione.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCCB1BCE2D770003B593 /* hermione.jpeg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCD71BCE2D770003B593 /* lordvoldemort.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCCC1BCE2D770003B593 /* lordvoldemort.jpeg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCD81BCE2D770003B593 /* mcgonagall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCCD1BCE2D770003B593 /* mcgonagall.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCD91BCE2D770003B593 /* nevillelongbottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCCE1BCE2D770003B593 /* nevillelongbottom.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCDA1BCE2D770003B593 /* ronweasley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCCF1BCE2D770003B593 /* ronweasley.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCDB1BCE2D770003B593 /* siriusblack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCD01BCE2D770003B593 /* siriusblack.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB76CCDC1BCE2D770003B593 /* snape.png in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCD11BCE2D770003B593 /* snape.png */; settings = {ASSET_TAGS = (); }; };
 		AB76CCDF1BCE40630003B593 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB76CCDE1BCE40630003B593 /* CoreData.framework */; };
 		AB76CCE41BCF8E810003B593 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB76CCE31BCF8E810003B593 /* MapKit.framework */; };
-		AB76CCE61BCFA38C0003B593 /* cleanify.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCE51BCFA38C0003B593 /* cleanify.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1CFE1BCFA6A2006E7A2D /* cleanify.png in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CF21BCFA6A2006E7A2D /* cleanify.png */; settings = {ASSET_TAGS = (); }; };
+		ABED1CFF1BCFA6A2006E7A2D /* dracomalfoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CF31BCFA6A2006E7A2D /* dracomalfoy.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D001BCFA6A2006E7A2D /* dumbledore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CF41BCFA6A2006E7A2D /* dumbledore.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D011BCFA6A2006E7A2D /* hagrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CF51BCFA6A2006E7A2D /* hagrid.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D021BCFA6A2006E7A2D /* harry potter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CF61BCFA6A2006E7A2D /* harry potter.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D031BCFA6A2006E7A2D /* hermione.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CF71BCFA6A2006E7A2D /* hermione.jpeg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D041BCFA6A2006E7A2D /* lordvoldemort.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CF81BCFA6A2006E7A2D /* lordvoldemort.jpeg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D051BCFA6A2006E7A2D /* mcgonagall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CF91BCFA6A2006E7A2D /* mcgonagall.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D061BCFA6A2006E7A2D /* nevillelongbottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CFA1BCFA6A2006E7A2D /* nevillelongbottom.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D071BCFA6A2006E7A2D /* ronweasley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CFB1BCFA6A2006E7A2D /* ronweasley.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D081BCFA6A2006E7A2D /* siriusblack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CFC1BCFA6A2006E7A2D /* siriusblack.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABED1D091BCFA6A2006E7A2D /* snape.png in Resources */ = {isa = PBXBuildFile; fileRef = ABED1CFD1BCFA6A2006E7A2D /* snape.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,20 +78,20 @@
 		AB76CCC41BCC3ABB0003B593 /* Cleanify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleanify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB76CCC51BCC3ABB0003B593 /* CleanifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB76CCC61BCC3ABB0003B593 /* CleanifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB76CCC71BCE2D770003B593 /* dracomalfoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dracomalfoy.jpg; sourceTree = "<group>"; };
-		AB76CCC81BCE2D770003B593 /* dumbledore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dumbledore.jpg; sourceTree = "<group>"; };
-		AB76CCC91BCE2D770003B593 /* hagrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hagrid.jpg; sourceTree = "<group>"; };
-		AB76CCCA1BCE2D770003B593 /* harry potter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "harry potter.jpg"; sourceTree = "<group>"; };
-		AB76CCCB1BCE2D770003B593 /* hermione.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hermione.jpeg; sourceTree = "<group>"; };
-		AB76CCCC1BCE2D770003B593 /* lordvoldemort.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lordvoldemort.jpeg; sourceTree = "<group>"; };
-		AB76CCCD1BCE2D770003B593 /* mcgonagall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcgonagall.jpg; sourceTree = "<group>"; };
-		AB76CCCE1BCE2D770003B593 /* nevillelongbottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nevillelongbottom.jpg; sourceTree = "<group>"; };
-		AB76CCCF1BCE2D770003B593 /* ronweasley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ronweasley.jpg; sourceTree = "<group>"; };
-		AB76CCD01BCE2D770003B593 /* siriusblack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = siriusblack.jpg; sourceTree = "<group>"; };
-		AB76CCD11BCE2D770003B593 /* snape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snape.png; sourceTree = "<group>"; };
 		AB76CCDE1BCE40630003B593 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AB76CCE31BCF8E810003B593 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		AB76CCE51BCFA38C0003B593 /* cleanify.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cleanify.jpg; path = ../../../../Desktop/Photos/cleanify.jpg; sourceTree = "<group>"; };
+		ABED1CF21BCFA6A2006E7A2D /* cleanify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cleanify.png; sourceTree = "<group>"; };
+		ABED1CF31BCFA6A2006E7A2D /* dracomalfoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dracomalfoy.jpg; sourceTree = "<group>"; };
+		ABED1CF41BCFA6A2006E7A2D /* dumbledore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dumbledore.jpg; sourceTree = "<group>"; };
+		ABED1CF51BCFA6A2006E7A2D /* hagrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hagrid.jpg; sourceTree = "<group>"; };
+		ABED1CF61BCFA6A2006E7A2D /* harry potter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "harry potter.jpg"; sourceTree = "<group>"; };
+		ABED1CF71BCFA6A2006E7A2D /* hermione.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hermione.jpeg; sourceTree = "<group>"; };
+		ABED1CF81BCFA6A2006E7A2D /* lordvoldemort.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lordvoldemort.jpeg; sourceTree = "<group>"; };
+		ABED1CF91BCFA6A2006E7A2D /* mcgonagall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcgonagall.jpg; sourceTree = "<group>"; };
+		ABED1CFA1BCFA6A2006E7A2D /* nevillelongbottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nevillelongbottom.jpg; sourceTree = "<group>"; };
+		ABED1CFB1BCFA6A2006E7A2D /* ronweasley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ronweasley.jpg; sourceTree = "<group>"; };
+		ABED1CFC1BCFA6A2006E7A2D /* siriusblack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = siriusblack.jpg; sourceTree = "<group>"; };
+		ABED1CFD1BCFA6A2006E7A2D /* snape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,18 +205,18 @@
 		AB76CCDD1BCE2D7D0003B593 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				AB76CCE51BCFA38C0003B593 /* cleanify.jpg */,
-				AB76CCC71BCE2D770003B593 /* dracomalfoy.jpg */,
-				AB76CCC81BCE2D770003B593 /* dumbledore.jpg */,
-				AB76CCC91BCE2D770003B593 /* hagrid.jpg */,
-				AB76CCCA1BCE2D770003B593 /* harry potter.jpg */,
-				AB76CCCB1BCE2D770003B593 /* hermione.jpeg */,
-				AB76CCCC1BCE2D770003B593 /* lordvoldemort.jpeg */,
-				AB76CCCD1BCE2D770003B593 /* mcgonagall.jpg */,
-				AB76CCCE1BCE2D770003B593 /* nevillelongbottom.jpg */,
-				AB76CCCF1BCE2D770003B593 /* ronweasley.jpg */,
-				AB76CCD01BCE2D770003B593 /* siriusblack.jpg */,
-				AB76CCD11BCE2D770003B593 /* snape.png */,
+				ABED1CF21BCFA6A2006E7A2D /* cleanify.png */,
+				ABED1CF31BCFA6A2006E7A2D /* dracomalfoy.jpg */,
+				ABED1CF41BCFA6A2006E7A2D /* dumbledore.jpg */,
+				ABED1CF51BCFA6A2006E7A2D /* hagrid.jpg */,
+				ABED1CF61BCFA6A2006E7A2D /* harry potter.jpg */,
+				ABED1CF71BCFA6A2006E7A2D /* hermione.jpeg */,
+				ABED1CF81BCFA6A2006E7A2D /* lordvoldemort.jpeg */,
+				ABED1CF91BCFA6A2006E7A2D /* mcgonagall.jpg */,
+				ABED1CFA1BCFA6A2006E7A2D /* nevillelongbottom.jpg */,
+				ABED1CFB1BCFA6A2006E7A2D /* ronweasley.jpg */,
+				ABED1CFC1BCFA6A2006E7A2D /* siriusblack.jpg */,
+				ABED1CFD1BCFA6A2006E7A2D /* snape.png */,
 			);
 			name = Media;
 			sourceTree = "<group>";
@@ -329,22 +329,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB76CCD91BCE2D770003B593 /* nevillelongbottom.jpg in Resources */,
-				AB76CCD21BCE2D770003B593 /* dracomalfoy.jpg in Resources */,
-				AB76CCDB1BCE2D770003B593 /* siriusblack.jpg in Resources */,
-				AB76CCDA1BCE2D770003B593 /* ronweasley.jpg in Resources */,
-				AB76CCD81BCE2D770003B593 /* mcgonagall.jpg in Resources */,
-				AB76CCD41BCE2D770003B593 /* hagrid.jpg in Resources */,
-				AB76CCE61BCFA38C0003B593 /* cleanify.jpg in Resources */,
+				ABED1D011BCFA6A2006E7A2D /* hagrid.jpg in Resources */,
 				AB1230AA1BCA021C0033EBA3 /* LaunchScreen.storyboard in Resources */,
-				AB76CCDC1BCE2D770003B593 /* snape.png in Resources */,
-				AB76CCD51BCE2D770003B593 /* harry potter.jpg in Resources */,
-				AB76CCD61BCE2D770003B593 /* hermione.jpeg in Resources */,
-				AB76CCD71BCE2D770003B593 /* lordvoldemort.jpeg in Resources */,
-				AB76CCD31BCE2D770003B593 /* dumbledore.jpg in Resources */,
+				ABED1D051BCFA6A2006E7A2D /* mcgonagall.jpg in Resources */,
+				ABED1D091BCFA6A2006E7A2D /* snape.png in Resources */,
+				ABED1D081BCFA6A2006E7A2D /* siriusblack.jpg in Resources */,
+				ABED1CFF1BCFA6A2006E7A2D /* dracomalfoy.jpg in Resources */,
+				ABED1D071BCFA6A2006E7A2D /* ronweasley.jpg in Resources */,
 				AB1230A71BCA021C0033EBA3 /* Assets.xcassets in Resources */,
+				ABED1CFE1BCFA6A2006E7A2D /* cleanify.png in Resources */,
+				ABED1D001BCFA6A2006E7A2D /* dumbledore.jpg in Resources */,
 				AB1230A21BCA021C0033EBA3 /* Main.storyboard in Resources */,
 				AB1230CE1BCA3FF00033EBA3 /* data.json in Resources */,
+				ABED1D031BCFA6A2006E7A2D /* hermione.jpeg in Resources */,
+				ABED1D041BCFA6A2006E7A2D /* lordvoldemort.jpeg in Resources */,
+				ABED1D021BCFA6A2006E7A2D /* harry potter.jpg in Resources */,
+				ABED1D061BCFA6A2006E7A2D /* nevillelongbottom.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,10 +28,7 @@
         NSLog(@"Error in parseJSONFile: %@", error);
         error = nil;
     }
-    //Check if JSON is valid
-    BOOL isJsonValid = [NSJSONSerialization isValidJSONObject:dataFromFile];
-    NSLog(@"Json is valid: %hhd", isJsonValid);
-    
+   
     //Generating JSON
     NSArray *json = [NSJSONSerialization JSONObjectWithData:dataFromFile options:kNilOptions error:&error];
     if(error){
@@ -121,7 +118,7 @@
         NSLog(@"Customer added: %@", newCustomer);
     }
     
-    /*For deleting all objects in Core Data
+    /*//For deleting all objects in Core Data
      for(Customer *cust in customers){
      if(cust){
      [moc deleteObject:cust];
@@ -131,7 +128,7 @@
      if(error){
      NSLog(@"%@", [error localizedDescription]);
      }
-     */
+    */
      
 }
 
