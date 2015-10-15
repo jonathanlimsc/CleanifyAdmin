@@ -8,7 +8,10 @@
  "endTime":"10/08/2015 12:00",
  "bathroomNumber":1,
  "bedroomNumber":2,
- "extra":"Clean up the cat fur and hairballs please."
+ "extra":"Clean up the cat fur and hairballs please.",
+ "cleaner":"Argus Filch",
+ "latitude":"34.136822",
+ "longitude":"-118.352779"
  },
  {
  "name":"Severus Snape",
@@ -20,7 +23,10 @@
  "endTime":"10/10/2015 15:00",
  "bathroomNumber":2,
  "bedroomNumber":3,
- "extra":"Clear the storage cabinet of expired Polyjuice potion. You will find it in column 4, row 2, next to the beetles jar."
+ "extra":"Clear the storage cabinet of expired Polyjuice potion. You will find it in column 4, row 2, next to the beetles jar.",
+ "cleaner":"Argus Filch",
+ "latitude":"34.136822",
+ "longitude":"-118.352779"
  },
  {
  "name":"Albus Dumbledore",
@@ -32,7 +38,10 @@
  "endTime":"10/10/2015 15:00",
  "bathroomNumber":1,
  "bedroomNumber":1,
- "extra":"I would appreciate it very much if you could be really quiet, because the headmasters in the portraits are sleeping."
+ "extra":"I would appreciate it very much if you could be really quiet, because the headmasters in the portraits are sleeping.",
+ "cleaner":"Argus Filch",
+ "latitude":"34.136822",
+ "longitude":"-118.352779"
  },
  {
  "name":"Sirius Black",
@@ -44,7 +53,10 @@
  "endTime": "10/11/2015 08:15",
  "bathroomNumber":1,
  "bedroomNumber":2,
- "extra": "De-clog the toilet for me, thanks."
+ "extra": "De-clog the toilet for me, thanks.",
+ "cleaner":"Argus Filch",
+ "latitude":"34.136822",
+ "longitude":"-118.352779"
  },
  {
  "name":"Hermione Granger",
@@ -56,7 +68,10 @@
  "endTime": "10/15/2015 18:30",
  "bathroomNumber":0,
  "bedroomNumber":1,
- "extra": "Don't touch my books!! They are very old and fragile and have to be absolutely immaculate."
+ "extra": "Don't touch my books!! They are very old and fragile and have to be absolutely immaculate.",
+ "cleaner":"Argus Filch",
+ "latitude":"34.136822",
+ "longitude":"-118.352779"
  },
  {
  "name":"Lord Voldemort",
@@ -68,6 +83,9 @@
  "endTime": "10/15/2015 18:30",
  "bathroomNumber":1,
  "bedroomNumber":2,
- "extra": "Please feed Nagini for me. "
+ "extra": "Please feed Nagini for me. ",
+ "cleaner":"Argus Filch",
+ "latitude":"34.136822",
+ "longitude":"-118.352779"
  }
  ]

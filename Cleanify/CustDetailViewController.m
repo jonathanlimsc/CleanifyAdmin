@@ -22,6 +22,20 @@
     //Initialise all fields
     self.title = self.customer.name;
     
+    //Display Map
+    CLLocationCoordinate2D initialLocale;
+    initialLocale.latitude = [self.customer.latitude doubleValue];
+    initialLocale.longitude = [self.customer.longitude doubleValue];
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(initialLocale,800,800);
+    
+    self.mapView.delegate = self;
+    [self.mapView setRegion:[self.mapView regionThatFits:region] animated:YES];
+    MKPointAnnotation *point = [[MKPointAnnotation alloc]init];
+    point.coordinate = initialLocale;
+    point.title = @"Location";
+    point.subtitle = self.customer.address;
+    [self.mapView addAnnotation:point];
+    
     //Set Date Formatter
     _dateFormatter =[[NSDateFormatter alloc]init];
     [_dateFormatter setDateFormat:@"MM-dd-yyyy HH-mm"];
@@ -29,6 +43,10 @@
     //Convert date strings in customer to NSDate
     NSDate *startTime = [_dateFormatter dateFromString:self.customer.startTime];
     NSDate *endTime = [_dateFormatter dateFromString:self.customer.endTime];
+    
+    //Get duration
+    NSTimeInterval minutes = [endTime timeIntervalSinceDate:startTime]/60;
+    self.durationLabel.text = [NSString stringWithFormat:@"%d minutes", (int)minutes];
     
     //Set displayed date on DatePicker
     self.startTime.date = startTime;
@@ -53,6 +71,9 @@
     //Display extras
     self.extraField.text = self.customer.extra;
     
+    //Display cleaner
+    self.cleanerField.text = self.customer.cleaner;
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -73,6 +94,7 @@
     self.customer.startTime = [_dateFormatter stringFromDate:self.startTime.date];
     self.customer.endTime = [_dateFormatter stringFromDate:self.endTime.date];
     self.customer.extra = self.extraField.text;
+    self.customer.cleaner = self.cleanerField.text;
     
         //Save into DB
         //Grab the delegate

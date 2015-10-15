@@ -20,6 +20,9 @@
 @dynamic bedroomNumber;
 @dynamic bathroomNumber;
 @dynamic address;
+@dynamic cleaner;
+@dynamic latitude;
+@dynamic longitude;
 
 /*Customer managed objects should not override description method due to unpredictabilityu when a fault is fired
 -(NSString *)description

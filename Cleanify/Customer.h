@@ -21,6 +21,9 @@
 @property (nonatomic) NSNumber *bathroomNumber;
 @property (nonatomic) NSNumber *bedroomNumber;
 @property (nonatomic) NSString *extra;
+@property (nonatomic) NSString *cleaner;
+@property (nonatomic) NSString *latitude;
+@property (nonatomic) NSString *longitude;
 
 -(instancetype)initWithEntity:(NSEntityDescription *)description insertIntoManagedObjectContext:(NSManagedObjectContext *)context;
 @end

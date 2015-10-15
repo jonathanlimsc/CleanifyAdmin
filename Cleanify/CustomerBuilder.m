@@ -50,6 +50,10 @@
         NSLog(@"Error fetching data from DB: %@", [error localizedDescription]);
         error = nil;
     }
+    //If there are items in DB, do not parse Json
+    if(customers.count>0){
+        return;
+    }
     
     NSEntityDescription *description = [NSEntityDescription entityForName:@"Customer" inManagedObjectContext:moc];
     
@@ -96,6 +100,18 @@
             if([key isEqualToString:@"extra"]){
                 newCustomer.extra = item[key];
                 NSLog(@"Extra request: %@", item[key]);
+            }
+            if([key isEqualToString:@"cleaner"]){
+                newCustomer.cleaner = item[key];
+                NSLog(@"Cleaner: %@", item[key]);
+            }
+            if([key isEqualToString:@"latitude"]){
+                newCustomer.latitude = item[key];
+                NSLog(@"Latitude: %@", item[key]);
+            }
+            if([key isEqualToString:@"longitude"]){
+                newCustomer.longitude = item[key];
+                NSLog(@"Longitude: %@", item[key]);
             }
         }
         [moc save:&error];
