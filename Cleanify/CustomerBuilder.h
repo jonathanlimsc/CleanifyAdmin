@@ -10,6 +10,6 @@
 
 @interface CustomerBuilder : NSObject
 
-+(NSMutableArray *)parseJsonFile;
++(void)parseJsonFile;
 
 @end

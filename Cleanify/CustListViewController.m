@@ -10,9 +10,12 @@
 #import "CustDetailViewController.h"
 #import "CustomerBuilder.h"
 #import "Customer.h"
+#import <CoreData/CoreData.h>
+#import <UIKit/UIKit.h>
 
 @interface CustListViewController () {
-    NSMutableArray *_customers; //private instance variables using class extension
+    NSArray *_customers; //private instance variables using class extension
+    NSManagedObjectContext *_moc;
 
 }
 @end
@@ -22,7 +25,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Customers";
-    _customers = [CustomerBuilder parseJsonFile];
+    
+    //Fetch data from Core Data
+    id delegate = [[UIApplication sharedApplication]delegate];
+    _moc = [delegate managedObjectContext];
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Customer"];
+    NSError *error = nil;
+    _customers = [_moc executeFetchRequest:request error:&error];
+    if(error){
+        NSLog(@"Error fetching data from DB: %@", [error localizedDescription]);
+    }
     
 }
 
@@ -69,7 +81,16 @@
 
 -(IBAction)saveToCustListViewVC:(UIStoryboardSegue *)segue
 {
-    
-}
 
+}
+#pragma mark - Managed object context
+-(NSManagedObjectContext *)managedObjectContext
+{
+    NSManagedObjectContext *context = nil;
+    id delegate = [[UIApplication sharedApplication]delegate];
+    if([delegate performSelector:@selector(managedObjectContext)]){
+        context = [delegate managedObjectContext];
+    }
+    return context;
+}
 @end

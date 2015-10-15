@@ -9,7 +9,10 @@
 #import "CustDetailViewController.h"
 
 @interface CustDetailViewController ()
+{
+    NSDateFormatter *_dateFormatter;
 
+}
 @end
 
 @implementation CustDetailViewController
@@ -20,12 +23,12 @@
     self.title = self.customer.name;
     
     //Set Date Formatter
-    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
-    [formatter setDateFormat:@"MM-dd-yyyy HH-mm"];
+    _dateFormatter =[[NSDateFormatter alloc]init];
+    [_dateFormatter setDateFormat:@"MM-dd-yyyy HH-mm"];
     
     //Convert date strings in customer to NSDate
-    NSDate *startTime = [formatter dateFromString:self.customer.startTime];
-    NSDate *endTime = [formatter dateFromString:self.customer.endTime];
+    NSDate *startTime = [_dateFormatter dateFromString:self.customer.startTime];
+    NSDate *endTime = [_dateFormatter dateFromString:self.customer.endTime];
     
     //Set displayed date on DatePicker
     self.startTime.date = startTime;
@@ -55,6 +58,31 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    //Save all the details
+    self.customer.phoneNumber = self.phoneField.text;
+    self.customer.email = self.emailField.text;
+    self.customer.address = self.addressField.text;
+    NSNumberFormatter *numFormatter = [[NSNumberFormatter alloc]init];
+    numFormatter.numberStyle = NSNumberFormatterDecimalStyle;
+    self.customer.bedroomNumber = [numFormatter numberFromString:self.bedroomNumberLabel.text];
+    self.customer.bathroomNumber = [numFormatter numberFromString:self.bathroomNumberLabel.text];
+    self.customer.startTime = [_dateFormatter stringFromDate:self.startTime.date];
+    self.customer.endTime = [_dateFormatter stringFromDate:self.endTime.date];
+    self.customer.extra = self.extraField.text;
+    
+        //Save into DB
+        //Grab the delegate
+        id delegate = [[UIApplication sharedApplication]delegate];
+        NSManagedObjectContext *moc = [delegate managedObjectContext];
+        NSError *error = nil;
+        [moc save:&error];
+        if(error){
+            NSLog(@"Error saving to DB: %@", [error localizedDescription]);
+        }
 }
 
 - (void)didReceiveMemoryWarning {

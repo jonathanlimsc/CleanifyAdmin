@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface Customer : NSObject
+@interface Customer : NSManagedObject
 
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *profilePicUrl;
@@ -21,4 +22,5 @@
 @property (nonatomic) NSNumber *bedroomNumber;
 @property (nonatomic) NSString *extra;
 
+-(instancetype)initWithEntity:(NSEntityDescription *)description insertIntoManagedObjectContext:(NSManagedObjectContext *)context;
 @end

@@ -31,6 +31,7 @@
 		AB76CCDA1BCE2D770003B593 /* ronweasley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCCF1BCE2D770003B593 /* ronweasley.jpg */; settings = {ASSET_TAGS = (); }; };
 		AB76CCDB1BCE2D770003B593 /* siriusblack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCD01BCE2D770003B593 /* siriusblack.jpg */; settings = {ASSET_TAGS = (); }; };
 		AB76CCDC1BCE2D770003B593 /* snape.png in Resources */ = {isa = PBXBuildFile; fileRef = AB76CCD11BCE2D770003B593 /* snape.png */; settings = {ASSET_TAGS = (); }; };
+		AB76CCDF1BCE40630003B593 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB76CCDE1BCE40630003B593 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		AB76CCCF1BCE2D770003B593 /* ronweasley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ronweasley.jpg; sourceTree = "<group>"; };
 		AB76CCD01BCE2D770003B593 /* siriusblack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = siriusblack.jpg; sourceTree = "<group>"; };
 		AB76CCD11BCE2D770003B593 /* snape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snape.png; sourceTree = "<group>"; };
+		AB76CCDE1BCE40630003B593 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB76CCDF1BCE40630003B593 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +119,7 @@
 		AB12308B1BCA021C0033EBA3 = {
 			isa = PBXGroup;
 			children = (
+				AB76CCDE1BCE40630003B593 /* CoreData.framework */,
 				AB1230961BCA021C0033EBA3 /* Cleanify */,
 				AB1230B31BCA021C0033EBA3 /* CleanifyTests */,
 				AB1230BE1BCA021C0033EBA3 /* CleanifyUITests */,
@@ -135,7 +139,6 @@
 				AB1230A61BCA021C0033EBA3 /* Assets.xcassets */,
 				AB1230A81BCA021C0033EBA3 /* LaunchScreen.storyboard */,
 				AB1230AB1BCA021C0033EBA3 /* Info.plist */,
-				AB1230A31BCA021C0033EBA3 /* Cleanify.xcdatamodeld */,
 				AB1230971BCA021C0033EBA3 /* Supporting Files */,
 			);
 			path = Cleanify;
@@ -172,6 +175,7 @@
 		AB1230CF1BCA3FF50033EBA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AB1230A31BCA021C0033EBA3 /* Cleanify.xcdatamodeld */,
 				AB1230CD1BCA3FF00033EBA3 /* data.json */,
 				AB1230D11BCA46490033EBA3 /* CustomerBuilder.h */,
 				AB1230D21BCA46490033EBA3 /* CustomerBuilder.m */,

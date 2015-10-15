@@ -8,10 +8,11 @@
 
 #import "CustomerBuilder.h"
 #import "Customer.h"
+#import <UIKit/UIKit.h>
 
 @implementation CustomerBuilder
 
-+(NSMutableArray *)parseJsonFile
++(void)parseJsonFile
 {
     //Reading from file
     NSString *filePath = [[NSBundle mainBundle]pathForResource:@"data" ofType:@"json"];//data.json
@@ -39,11 +40,21 @@
     }
     
     //Generating customers array
-    NSMutableArray *customers = [[NSMutableArray alloc]init];
+    NSArray *customers = [[NSMutableArray alloc]init];
     
+    id delegate = [[UIApplication sharedApplication]delegate]; //grab App Delegate
+    NSManagedObjectContext *moc = [delegate managedObjectContext];
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Customer"];
+    customers = [moc executeFetchRequest:request error:&error];
+    if(error){
+        NSLog(@"Error fetching data from DB: %@", [error localizedDescription]);
+        error = nil;
+    }
+    
+    NSEntityDescription *description = [NSEntityDescription entityForName:@"Customer" inManagedObjectContext:moc];
     
     for(NSDictionary *item in json){
-        Customer *newCustomer = [[Customer alloc]init];
+        Customer *newCustomer = [[Customer alloc]initWithEntity:description insertIntoManagedObjectContext:moc];
         for(NSString *key in item){
             NSLog(@"Parsed %@: %@", key, item[key] );
             if([key isEqualToString:@"name"]){
@@ -87,11 +98,25 @@
                 NSLog(@"Extra request: %@", item[key]);
             }
         }
-        [customers addObject:newCustomer];
+        [moc save:&error];
+        if(error){
+            NSLog(@"%@", [error localizedDescription]);
+        }
         NSLog(@"Customer added: %@", newCustomer);
     }
     
-    return customers;
+    /*For deleting all objects in Core Data
+     for(Customer *cust in customers){
+     if(cust){
+     [moc deleteObject:cust];
+     }
+     }
+     [moc save:&error];
+     if(error){
+     NSLog(@"%@", [error localizedDescription]);
+     }
+     */
+     
 }
 
 @end

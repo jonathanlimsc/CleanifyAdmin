@@ -8,7 +8,7 @@
         <!--Root View Controller-->
         <scene sceneID="up3-1Z-Cz3">
             <objects>
-                <tableViewController id="DIm-vi-bKk" customClass="CustListViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="CustListVC" id="DIm-vi-bKk" customClass="CustListViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="pij-Nm-N13">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -439,7 +439,7 @@
                                 <segue destination="ekz-4S-bmV" kind="unwind" unwindAction="cancelToCustListVC:" id="vje-gD-SCH"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="bLF-D1-WRT">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="bLF-D1-WRT">
                             <connections>
                                 <segue destination="ekz-4S-bmV" kind="unwind" unwindAction="saveToCustListViewVC:" id="169-8p-9e7"/>
                             </connections>
